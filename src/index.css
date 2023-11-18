@@ -165,3 +165,54 @@ h1 {
   cursor: pointer;
   font-size: 48px;
 }
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2vh 0;
+  display: grid;
+  border-radius: 10px;
+}
+
+.footer-container {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 25vh;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-logo img {
+  width: 5vh;
+  height:  5vh;
+  margin: 1vh;
+}
+
+ span {
+  font-size: 1.5em;
+  margin: 1vh;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #00bcd4;
+}
+
+.footer-social a svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-social a:hover svg {
+  transform: scale(1.2);
+}
