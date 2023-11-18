@@ -89,7 +89,7 @@ function App() {
   <footer>
   <div className="footer-container">
       <div className="footer-logo">
-        <img src="./public/favicon.ico" alt="Logo"></img>
+        <picture><img src="./public/favicon.ico" alt="Logo"></img></picture>
         
       </div>
       <span>Aleix Martín</span>
