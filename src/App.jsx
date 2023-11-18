@@ -55,8 +55,10 @@ function App() {
   }
 
   return (
+    <>
+    <h1 className='logo-1'>3enRaya</h1>
+
   <main className='board'>
-    <h1>Tres en Raya</h1>
     <section className='game'>
       {
         board.map((square, index) => {
@@ -84,6 +86,7 @@ function App() {
     <WinnerModal resetGame={resetGame} winner={winner}/>
    
   </main>
+  </>
   )
 
 }
